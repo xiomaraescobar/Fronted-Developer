@@ -1,0 +1,9 @@
+los motores lo que hacen es transformar el codigo a un lenguaje que sea facil de enteder para los navegadores. 
+ tambien van a pintarlo en pixeles para que los usuarios lo puedan visualizar.
+ 5 pasos que realiza el navegador
+ 1: pasa los archivos a objetos
+ 2: calcula el estilo correspondiente a cada nodo DOM.' estructura las etiquetas desde la principal hacia el final'
+ 3:calcula las dimensiones de cada nodo y donde va en la pantalla
+ 4:pinta las diferentes cajas
+ 5:toma las capas y la convierte en una imagen para mostrar en pantalla.
+ DOM:'es el mismo html transformado en objetos que el navegador puede comprender'.
