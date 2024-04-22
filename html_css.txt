@@ -1,0 +1,3 @@
+html: nos sirve para estructurar paginas web, nos brinda la estructira inicial
+css: hojas de estilo en cascada es quien le da vida a la pagina, permite estilizar basicamente es la parte bonita lo visual.
+html y css trabajan juntos para dar una mejor estructuctura a las paginas web que diseñamos.
