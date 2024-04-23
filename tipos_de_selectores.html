@@ -1,0 +1,40 @@
+<!--Selectores basicos:es la minima expresion css para colocar estilos.
+de tipo:  div {...}
+de clase:  .elemento {...}
+de id:  #id-del-elemento {...}
+de atributo:  div a[href="..."] {...}
+universal:  * {...}
+selector de tipo: selecciona todos los elementos que coincidan con el nombre de la etiqueta html. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: papayawhip;
+        }
+        div {
+            background: rgb(144, 144, 245);
+        }
+        .titulo{
+            color: coral;
+        }
+        #titulo2 {
+            color: red;
+        }
+        a[href="https://platzi.com/new-home"] {
+            color: pink;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="titulo">hola</div>
+    <div id="titulo2">hola mundo</div>
+    <a href="https://platzi.com/home">platzi</a>
+</body>
+</html>
