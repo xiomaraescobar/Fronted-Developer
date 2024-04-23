@@ -1,0 +1,49 @@
+Selectores combinadores:
+descendientes:  div p
+Hijo directo:   div > p
+elemento adyacente:  div + p
+general de hermanos:  div ~ p
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: yellow;
+        }
+        div > div{
+            background: purple;
+        }
+        .es{
+            background: pink;
+        }
+        div + section{
+            background: palegreen;
+        }
+        div ~ p{
+            color: rgb(35, 197, 218);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>platzi</p>
+            <div class="es">Es</div>
+        </div>
+    </div>
+    <p>Clase de selectores </p>
+    <p>Clase de selectores </p>
+    <section>
+        Es lo mejor
+    </section>
+    <div>
+        Master
+    </div>
+</body>
+</html>
