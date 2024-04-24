@@ -1,0 +1,42 @@
+display mas usados: Es el tipo de visualizacion de los elementos html. 
+block: establece que un elemento ocupara todo el espacio disponible, Es posible añadir medidas de anchura widht y altura heigh a estos elementos.
+inline:  El elemento ocupara el espacio del contenido del mismo: NO es posible añadir ni widht ni heigh a estos elementos.
+inline-block:  combina las ventajas de bloque de colocar medidas al elemento y propiedades del modelo de caja.
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    div {
+      background: purple;
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+    a {
+      background:gray;
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+    button {
+      background: pink;
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div>bloque</div>
+  <a href="/">inline</a>
+  <button>inline block</button>
+</body>
+</html>
