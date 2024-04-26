@@ -1,4 +1,22 @@
+El posicionamiento en CSS consiste en cómo un elemento se situará, con respecto a su elemento padre y al flujo normal del documento.
+La posición del elemento se la define con la propiedad position, mediante los siguientes valores:
 
+static:  Es el valor por defecto de todo elemento HTML, consiste en respetar el flujo normal del documento donde las propiedades de posición no pueden ser establecidas.
+
+relative: Consiste en respetar el flujo normal del documento donde las propiedades de posición sí pueden ser establecidas.
+Con relative no sucede lo mismo que absolute, el elemento mantiene su lugar, pero podemos posicionarlo donde queramos
+
+absolute: Consiste en quitar al elemento del flujo normal del documento donde las propiedades de posición sí pueden ser establecidas.
+Con absolute el elemento sale de su lugar y el navegador reacomoda los elemento, poniendo otro elemento en el lugar del elemento con position absolute. Podemos posicionar al elemento como queramos.
+
+sticky: Consiste en quitar al elemento del flujo normal del documento y fijarlo en un lugar mientras su contenedor sea visible; donde las propiedades de posición sí pueden ser establecidas.
+Es similar a fixed con la diferencia que cuando encuentra a otro elemento con su mismo position, sticky, le da lugar al ese elemento
+
+fixed: consiste en quitar al elemento del flujo normal del documento y fijarlo en un lugar; donde las propiedades de posición sí pueden ser establecidas.
+Este valor de position nos permite que el elemento que queramos nos siga a todos lados desde el momento en el que nos topemos con él.
+
+Left, top, right y bottom
+Con estas cuatro propiedades podemos mover a los elementos que tengan como position a absolute, relative fixed o sticky a los lugares que queramos.
 
 <!DOCTYPE html>
 <html lang="en">
