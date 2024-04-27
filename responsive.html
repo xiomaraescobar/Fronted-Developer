@@ -1,0 +1,32 @@
+El diseño responsivo: consiste en un conjunto de herramientas para que tu sitio se vea bien en varias medidas de pantalla,
+esto incluye imágenes, tipografía entre otros.
+
+Las media queries son reglas CSS que establecen un comportamiento distinto o diferentes estilos en un cierto rango de la pantalla.
+Esto sirve para establecer el layout del sitio web para diferentes tipos de pantalla: escritorio, tablets y celulares.
+max-width / max-height: establece un rango máximo para cierto comportamiento.
+min-width / min-height: establece un rango mínimo para cierto comportamiento.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      background: purple;
+    }
+    @media (max-width: 300px) {
+      div {
+        background: red;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    Platzi
+  </div>
+</body>
+</html>
